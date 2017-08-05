@@ -52,7 +52,7 @@ done
 echo done!
 
 
-# replace .ttf --> .ttf.fix 
+# replace .ttf.fix --> .ttf
 rm -R *.ttf
 ALLFONTS=$(ls *.ttf.fix)
 for font in $ALLFONTS
